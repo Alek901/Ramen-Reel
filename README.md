@@ -55,7 +55,7 @@ To get started with RamenReel, follow these steps:
 
 - Frontend: React.js
 - Backend: Node.js, Express.js
-- Database: Proges
+- Database: Postges
 - Authentication: JSON Web Tokens (JWT)
 - API: 
 
