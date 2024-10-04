@@ -28,7 +28,6 @@ CREATE TABLE lists (
     user_id INTEGER,
     FOREIGN KEY (anime_id) REFERENCES anime(ID),
     FOREIGN KEY (user_id) REFERENCES users(id)
-); (edited) 
-:raised_hands:
-1
+); 
+
 
