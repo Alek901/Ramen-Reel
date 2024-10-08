@@ -21,8 +21,9 @@ CREATE TABLE users (
     role VARCHAR(50),
     create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
--- Create the list table
-CREATE TABLE lists (
+-- Create the watching table
+-- This table will hold information for whatever anime is currently being watched by the user
+CREATE TABLE watching (
     id INTEGER PRIMARY KEY,
     anime_id INTEGER,
     user_id INTEGER,
