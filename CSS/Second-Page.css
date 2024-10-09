@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.text-container p {
+    margin-top: 20px;
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: bold;
+    color: #333;
+}
+
+ /* Color for the "Discover Your Next Top Anime" */
+.text-container p:nth-child(1) {
+    color: #ff4757; 
+}
+
+.text-container p:nth-child(2) {
+    color: #1e90ff;
+}
+
+.text-container p:nth-child(3) {
+    color: #2ed573;
+}
