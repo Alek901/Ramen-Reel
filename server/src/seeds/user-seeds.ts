@@ -1,6 +1,6 @@
 import { Anime } from '../models/index'; 
 
-export const animeSeeds: Anime[] = [
+export const seedUsers: Anime[] = [
   {
     id: 1,
     title: 'Attack on Titan',
@@ -41,7 +41,47 @@ export const animeSeeds: Anime[] = [
     releaseYear: 2022,
     rating: 8.0
   }
+  {
+    id: 5,
+    title: 'One Piece',
+    description: ' Unmatched in battle, Luffy is a pirate himself who resolutely pursues the coveted One Piece treasure and the King of the Pirates title that comes with it.',
+    genre: ['Action'],
+    episodes: 130,
+    status:'Completed',
+    releaseYear: 1999,
+    rating: 8.72
+  }
+  {
+    id: 6,
+    title: 'Dragon Ball Z',
+    description: 'Dragon Ball Z follows the adventures of the adult Goku who, along with his companions, defends the earth against an assortment of villains ranging from intergalactic space fighters and conquerors, unnaturally powerful androids and near indestructible magical creatures',
+    genre: ['Action'],
+    episodes: 291,
+    status:'Completed',
+    releaseYear: 1989,
+    rating: 8.18
+  }
+  {
+    id: 7,
+    title: 'Demon Slayer',
+    description: 'Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.',
+    genre: ['Action'],
+    episodes: 26,
+    status:'Completed',
+    releaseYear: 2019,
+    rating: 8.45
+  }
+  {
+    id: 8,
+    title: 'Solo Leveling',
+    description: 'In a world where hunters — human warriors who possess supernatural abilities — must battle deadly monsters to protect mankind from certain annihilation, a notoriously weak hunter named Sung Jinwoo finds himself in a seemingly endless struggle for survival.',
+    genre: ['Action'],
+    episodes: 12,
+    status:'Completed',
+    releaseYear: 2024,
+    rating: 8.28
+  }
   // Add more anime entries as needed
 ];
 
-export default animeSeeds;
+export default seedUsers;
