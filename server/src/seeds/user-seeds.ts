@@ -1,87 +1,18 @@
-import { Anime } from '../models/index'; 
+import { User } from '../models/user';
 
-export const seedUsers: Anime[] = [
-  {
-    id: 1,
-    title: 'Attack on Titan',
-    description: 'In a world where humanity lives inside cities surrounded by enormous walls due to the Titans, gigantic humanoid creatures who devour humans seemingly without reason, a young boy named Eren Yeager vows to rid the world of the Titan threat and exact revenge after a tragic event in his childhood.',
-    genre: ['Action'],
-    episodes: 75,
-    status: 'Completed',
-    releaseYear: 2013,
-    rating: 9.0
-  },
-{
-  id: 2,
-  title: 'Tokyo Ghoul',
-  description: 'Ken Kaneki, a college student, survives an encounter with a ghoul and becomes a half-ghoul himself. He must navigate the complex world of ghouls while struggling to maintain his humanity and protect those he cares about.',
-  genre: ['Thriller'],
-  episodes: 48,
-  status: 'Completed',
-  releaseYear: 2014,
-  rating: 7.9
-}
-  {
-    id: 3,
-    title: 'My Hero Academia',
-    description: 'In a world where people with superpowers (known as "Quirks") are the norm, a boy named Izuku Midoriya has big dreams of becoming a superhero, despite being born Quirkless. After a chance encounter with the greatest hero of all time, All Might, Izuku\'s journey to become a hero begins.',
-    genre: ['Action'],
-    episodes: 113,
-    status: 'Ongoing',
-    releaseYear: 2016,
-    rating: 8.4
-  },
-  {
-    id: 4,
-    title: 'Naruto',
-    description: 'It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.',
-    genre: ['Action'],
-    episodes: 220,
-    status:'Completed',
-    releaseYear: 2022,
-    rating: 8.0
-  }
-  {
-    id: 5,
-    title: 'One Piece',
-    description: ' Unmatched in battle, Luffy is a pirate himself who resolutely pursues the coveted One Piece treasure and the King of the Pirates title that comes with it.',
-    genre: ['Action'],
-    episodes: 130,
-    status:'Completed',
-    releaseYear: 1999,
-    rating: 8.72
-  }
-  {
-    id: 6,
-    title: 'Dragon Ball Z',
-    description: 'Dragon Ball Z follows the adventures of the adult Goku who, along with his companions, defends the earth against an assortment of villains ranging from intergalactic space fighters and conquerors, unnaturally powerful androids and near indestructible magical creatures',
-    genre: ['Action'],
-    episodes: 291,
-    status:'Completed',
-    releaseYear: 1989,
-    rating: 8.18
-  }
-  {
-    id: 7,
-    title: 'Demon Slayer',
-    description: 'Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.',
-    genre: ['Action'],
-    episodes: 26,
-    status:'Completed',
-    releaseYear: 2019,
-    rating: 8.45
-  }
-  {
-    id: 8,
-    title: 'Solo Leveling',
-    description: 'In a world where hunters — human warriors who possess supernatural abilities — must battle deadly monsters to protect mankind from certain annihilation, a notoriously weak hunter named Sung Jinwoo finds himself in a seemingly endless struggle for survival.',
-    genre: ['Action'],
-    episodes: 12,
-    status:'Completed',
-    releaseYear: 2024,
-    rating: 8.28
-  }
-  // Add more anime entries as needed
+const seedUserData = [
+  { username: 'user1', email: 'user1@example.com', password: 'password1' },
+  { username: 'user2', email: 'user2@example.com', password: 'password2' },
+
 ];
+
+const seedUsers = async (): Promise<void> => {
+  try {
+    await User.bulkCreate(seedUserData);
+    console.log('Users seeded successfully');
+  } catch (error) {
+    console.error('Error seeding users:', error);
+  }
+};
 
 export default seedUsers;
