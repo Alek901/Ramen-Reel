@@ -20,7 +20,7 @@ export const animeSeeds: Anime[] = [
   status: 'Completed',
   releaseYear: 2014,
   rating: 7.9
-}
+},
   {
     id: 3,
     title: 'My Hero Academia',
