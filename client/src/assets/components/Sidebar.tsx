@@ -18,7 +18,7 @@ const Sidebar = () => {
               <li>Thriller</li>
               <li>Sci-Fi</li>
               <li> <div className="login-link">
-        <p>Want to become a noodle watcher? <a href="/.pages/Login.tsx">Click here to log in</a></p>
+        <p>Want to become a noodle watcher? <a href="/login">Click here to log in</a></p>
       </div>
       </li>
             </ul>

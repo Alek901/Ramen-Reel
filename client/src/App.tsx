@@ -1,9 +1,12 @@
 import { useState } from 'react'
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter, Route, BrowserRouter as Router, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
 import './App.css'
 import Sidebar from './assets/components/Sidebar';
 import RamenBowl from '/PageImages/Ramen-Bowl.png'
 import RamenReel from '/PageImages/Page_Header.png'
+import Home from './assets/pages/Home';
+import Login from './assets/pages/Login';
+import ErrorPage from './assets/pages/ErrorPage';
 
 
 
@@ -22,13 +25,21 @@ const [count, setCount] = useState(0)
         </div>
       </header>
      
-      <Router>
+     
       <Sidebar />
-      </Router>
+      
+      <Routes>
+          <Route index element={<Home />} />
+          <Route path="login" element={<Login />} />
+          
+
+        
+          <Route path="*" element={<ErrorPage />} />
+      </Routes>
+      
     </>
   )
 }
-
 
 
 
