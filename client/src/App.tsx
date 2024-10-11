@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import RamenBowl from '/PageImages/Ramen-Bowl.png'
+import RamenReel from '/PageImages/Page_Header.png'
+
 
 
 
@@ -11,28 +13,13 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={RamenBowl} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div style={{ position: 'absolute', top: '10px', left: '10px' }}>
+        <img src={RamenBowl} alt="My Logo" style={{ width: '200px', height: 'auto' }} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div style={{ position: 'absolute', top: '10px', right: '50px', left: '50%', transform: 'translateX(-50%)' }}>
+        <img src={RamenReel} alt="My Logo" style={{ width: '120%', height: '100%', objectFit: 'cover' }} />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
-
 export default App
