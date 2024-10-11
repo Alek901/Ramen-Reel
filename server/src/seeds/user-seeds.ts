@@ -1,6 +1,6 @@
 import { Anime } from '../models/index'; 
 
-export const animeSeeds: Anime[] = [
+export const seedUsers: Anime[] = [
   {
     id: 1,
     title: 'Attack on Titan',
@@ -44,4 +44,4 @@ export const animeSeeds: Anime[] = [
   // Add more anime entries as needed
 ];
 
-export default animeSeeds;
+export default seedUsers;
