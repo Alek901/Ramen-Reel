@@ -1,10 +1,9 @@
 export interface Anime {
-    id: string;
-    title: string;
-    thumbnailLocation: string;
-  }
-  
-  export interface WatchedAnime extends Anime {
-    isWatched: boolean;
-  }
-  
+  id: string;
+  title: string;
+  thumbnailUrl: string;
+}
+
+export interface WatchedAnime extends Anime {
+  watchedDate: Date;
+}
