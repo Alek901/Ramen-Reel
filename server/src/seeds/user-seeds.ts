@@ -11,16 +11,16 @@ export const animeSeeds: Anime[] = [
     releaseYear: 2013,
     rating: 9.0
   },
-  {
-    id: 2,
-    title: 'Death Note',
-    description: 'A high school student named Light Yagami discovers a mysterious notebook that allows him to kill anyone by writing their name in it. He decides to use this power to create a world free of evil, but his actions attract the attention of an eccentric detective known as L.',
-    genre: ['Thriller'],
-    episodes: 37,
-    status: 'Completed',
-    releaseYear: 2006,
-    rating: 8.6
-  },
+{
+  id: 2,
+  title: 'Tokyo Ghoul',
+  description: 'Ken Kaneki, a college student, survives an encounter with a ghoul and becomes a half-ghoul himself. He must navigate the complex world of ghouls while struggling to maintain his humanity and protect those he cares about.',
+  genre: ['Thriller'],
+  episodes: 48,
+  status: 'Completed',
+  releaseYear: 2014,
+  rating: 7.9
+}
   {
     id: 3,
     title: 'My Hero Academia',
