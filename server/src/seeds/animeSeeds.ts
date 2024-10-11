@@ -40,6 +40,76 @@ export const seedUsers: Anime[] = [
     status:'Completed',
     releaseYear: 2022,
     rating: 8.0
-  }
+  },
+  {
+    id: 5,
+    title: 'One Piece',
+    description: ' Unmatched in battle, Luffy is a pirate himself who resolutely pursues the coveted One Piece treasure and the King of the Pirates title that comes with it.',
+    genre: ['Action'],
+    episodes: 130,
+    status:'Completed',
+    releaseYear: 1999,
+    rating: 8.72
+  },
+  {
+    id: 6,
+    title: 'Dragon Ball Z',
+    description: 'Dragon Ball Z follows the adventures of the adult Goku who, along with his companions, defends the earth against an assortment of villains ranging from intergalactic space fighters and conquerors, unnaturally powerful androids and near indestructible magical creatures',
+    genre: ['Action'],
+    episodes: 291,
+    status:'Completed',
+    releaseYear: 1989,
+    rating: 8.18
+  },
+  {
+    id: 7,
+    title: 'Demon Slayer',
+    description: 'Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.',
+    genre: ['Action'],
+    episodes: 26,
+    status:'Completed',
+    releaseYear: 2019,
+    rating: 8.45
+  },
+  {
+    id: 8,
+    title: 'Solo Leveling',
+    description: 'In a world where hunters — human warriors who possess supernatural abilities — must battle deadly monsters to protect mankind from certain annihilation, a notoriously weak hunter named Sung Jinwoo finds himself in a seemingly endless struggle for survival.',
+    genre: ['Action'],
+    episodes: 12,
+    status:'Completed',
+    releaseYear: 2024,
+    rating: 8.28
+  },
+  {
+    id: 9,
+    title: 'Chainsaw Man',
+    description: 'Chainsaw Man is an action anime series about a young man who becomes a devil-human hybrid and joins a government agency to hunt devils',
+    genre: ['Action'],
+    episodes: 12,
+    status:'Completed',
+    releaseYear: 2022,
+    rating: 8.45
+  },
+  {
+    id: 10,
+    title: 'Kaiju NO.8',
+    description: 'Kaiju No. 8 is an anime series about a man who becomes a monster and tries to achieve his childhood dream of joining the Japanese Defense Force to fight kaiju',
+    genre: ['Action'],
+    episodes: 12,
+    status:'Completed',
+    releaseYear: 2024,
+    rating: 8.32
+  },
+  {
+    id: 11,
+    title: 'Full Metal Alchemist',
+    description: 'Two brothers lose their mother to an incurable disease. With the power of "alchemy", they use taboo knowledge to resurrect her. The process fails, and as a toll for using this type of alchemy, the older brother, Edward Elric loses his left leg while the younger brother, Alphonse Elric loses his entire body.',
+    genre: ['Action'],
+    episodes: 51,
+    status:'Completed',
+    releaseYear: 2003,
+    rating: 8.11
+  },
   // Add more anime entries as needed
 ];
