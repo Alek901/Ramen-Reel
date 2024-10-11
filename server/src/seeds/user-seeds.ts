@@ -30,6 +30,16 @@ export const animeSeeds: Anime[] = [
     status: 'Ongoing',
     releaseYear: 2016,
     rating: 8.4
+  },
+  {
+    id: 4,
+    title: 'Naruto',
+    description: 'It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.',
+    genre: ['Action'],
+    episodes: 220,
+    status:'Completed',
+    releaseYear: 2022,
+    rating: 8.0
   }
   // Add more anime entries as needed
 ];
