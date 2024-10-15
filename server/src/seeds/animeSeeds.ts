@@ -1,7 +1,7 @@
 import { Anime } from "../models";
 
 export const seedUsers: Anime[] = [
-  {
+{
     id: 1,
     title: 'Dragon Ball Z',
     description: 'Dragon Ball Z follows the adventures of the adult Goku who, along with his companions, defends the earth against an assortment of villains ranging from intergalactic space fighters and conquerors, unnaturally powerful androids and near indestructible magical creatures',
@@ -51,10 +51,6 @@ export const seedUsers: Anime[] = [
     releaseYear: 2004,
     rating: 7.66
   },
- 
-  
-
-  
 
   // Add more anime entries as needed
 ];
