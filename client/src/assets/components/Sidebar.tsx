@@ -11,16 +11,16 @@ const Sidebar = () => {
           <li>
             <span>Categories</span>
             <ul>
-                <li></li>
-              <li>Action</li>
-              <li>Romance</li>
-              <li>Family Friendly</li>
-              <li>Thriller</li>
-              <li>Sci-Fi</li>
-              <li> <div className="login-link">
-        <p>Want to become a noodle watcher? <a href="/login">Click here to log in</a></p>
-      </div>
-      </li>
+              <li><Link to="">Action</Link></li>
+              <li><Link to="">Romance</Link></li>
+              <li><Link to="">Family Friendly</Link></li>
+              <li><Link to="">Thriller</Link></li>
+              <li><Link to="">Sci-Fi</Link></li>
+              <li>
+                <div className="login-link">
+                  <p>Want to become a noodle watcher? <Link to="/login">Click here to log in</Link></p>
+                </div>
+              </li>
             </ul>
           </li>
         </ul>
@@ -29,5 +29,4 @@ const Sidebar = () => {
   );
 };
 
-{/* <Link to="/category/sci-fi"></Link> */}
 export default Sidebar;
