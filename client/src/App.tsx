@@ -33,7 +33,7 @@ const location = useLocation();
       </header>
           {location.pathname !== '/login' && (
             <>
-            <div style={{ position: 'relative', width: '100%', height: '563px' }}>
+            <div style={{ position: 'relative', width: '100%', height: '563px', top: 200 }}>
               <img src={Romance} style={{ position: 'absolute', top: '10px', left: '300px', width: '100px' }}/>
               <img src={Scifi} style={{ position: 'absolute', top: '10px', right: '341px', width: '100px' }}/>
               <img src={Thriller} style={{ position: 'absolute', bottom: '10px', left: '300px', width: '100px' }}/>
