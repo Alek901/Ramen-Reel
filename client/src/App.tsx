@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter, Route, BrowserRouter as Router, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import './App.css'
 import Sidebar from './assets/components/Sidebar';
 import RamenBowl from '/PageImages/Ramen-Bowl.png'
@@ -7,12 +8,18 @@ import RamenReel from '/PageImages/Page_Header.png'
 import Home from './assets/pages/Home';
 import Login from './assets/pages/Login';
 import ErrorPage from './assets/pages/ErrorPage';
+import Thriller from '../public/PageImages/Paranoia.jpg'
+import Scifi from '../public/PageImages/Digimon.jpg'
+import Romance from '../public/PageImages/Darling.jpg'
+import Familyfriendly from '../public/PageImages/Spy.jpg'
+import Action from '../public/PageImages/Dragonball.jpg'
 
 
 
 
 function App() {
 const [count, setCount] = useState(0)
+const location = useLocation();
 
   return (
     <>
@@ -24,8 +31,17 @@ const [count, setCount] = useState(0)
           <img src={RamenReel} alt="My Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
       </header>
-     
-     
+          {location.pathname !== '/login' && (
+            <>
+            <div style={{ position: 'relative', width: '100%', height: '563px' }}>
+              <img src={Romance} style={{ position: 'absolute', top: '10px', left: '300px', width: '100px' }}/>
+              <img src={Scifi} style={{ position: 'absolute', top: '10px', right: '341px', width: '100px' }}/>
+              <img src={Thriller} style={{ position: 'absolute', bottom: '10px', left: '300px', width: '100px' }}/>
+              <img src={Familyfriendly} style={{ position: 'absolute', bottom: '10px', right: '341px', width: '100px' }}/>
+              <img src={Action} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '100px' }}/>
+            </div>
+            </>
+          )}
       <Sidebar />
       
       <Routes>
