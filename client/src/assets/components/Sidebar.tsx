@@ -11,6 +11,7 @@ const Sidebar = () => {
           <li>
             <span>Categories</span>
             <ul>
+              <li></li>
               <li><Link to="">Action</Link></li>
               <li><Link to="">Romance</Link></li>
               <li><Link to="">Family Friendly</Link></li>
