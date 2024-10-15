@@ -113,6 +113,9 @@ header {
   position: -1px;
 }
 
+.ramen-reel {
+  width: 75%;
+}
 @media only screen and (max-width: 768px) {
   .ramen-reel {
     display: none;
