@@ -25,10 +25,10 @@ const location = useLocation();
     <>
       <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px', }}>
         <div style={{ position: 'absolute', top: '10px', left: '10px'}}>
-          <img src={RamenBowl} alt="My Logo" style={{ width: '200px', height: 'auto' }} />
+          <img src={RamenBowl} alt="My Logo" className="ramen-bowl" style={{ width: '200px', height: 'auto' }} />
         </div>
         <div className='RamenReel' style={{ position: 'absolute', top: '0px', right: '50px', left: '50%', transform: 'translateX(-50%)' }}>
-          <img src={RamenReel} alt="My Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          <img src={RamenReel} alt="My Logo 2" className="ramen-reel" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
       </header>
           {location.pathname !== '/login' && (
