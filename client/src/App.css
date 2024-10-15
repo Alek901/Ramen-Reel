@@ -64,7 +64,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 275px;
+  height: 160px;
   z-index: 1000;
 }
 .sidebar {
@@ -111,4 +111,15 @@ header {
 .sidebar ul style {
   font-weight: bold; 
   position: -1px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ramen-reel {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 30px;
+  }
 }
