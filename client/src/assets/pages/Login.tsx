@@ -3,6 +3,7 @@ import { useState, FormEvent, ChangeEvent } from "react";
 import Auth from '../utils/auth';  
 import { login } from "../api/authAPI";  
 import { UserLogin } from "../interfaces/UserLogin";  
+import './Login.css' 
 
 const Login = () => {
   
@@ -50,7 +51,7 @@ const Login = () => {
         </div>
         {/* Password input field */}
         <div className="form-group">
-          <label>Password</label>
+        <label className="Password">Password</label>
           <input 
             className="form-input"
             type='password'
@@ -60,7 +61,7 @@ const Login = () => {
           />
         </div>
         {/* Submit button for the login form */}
-        <div className="form-group">
+        <div className="form-group button-container">
           <button className="btn btn-primary" type='submit'>Login</button>
         </div>
       </form>

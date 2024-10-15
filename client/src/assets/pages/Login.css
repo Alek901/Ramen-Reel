@@ -1,0 +1,13 @@
+.button-container {
+    display: flex;
+    margin-left: 47%;
+    margin-top: 15px;
+  }
+
+  h1 {
+    margin-left: 60px;
+  }
+
+  .Password {
+    margin-left: 5px;
+  }
