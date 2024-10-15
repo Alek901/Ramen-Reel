@@ -1,10 +1,10 @@
 import express from 'express';
 import type { Request, Response } from 'express';
-import { User } from '../../models/user.js';
+import { User } from '../../models/index.js';
 
 const router = express.Router();
 
-
+// GET /users - Get all users
 router.get('/', async (_req: Request, res: Response) => {
   try {
     const users = await User.findAll({
@@ -16,7 +16,7 @@ router.get('/', async (_req: Request, res: Response) => {
   }
 });
 
-
+// GET /users/:id - Get a user by id
 router.get('/:id', async (req: Request, res: Response) => {
   const { id } = req.params;
   try {
@@ -33,7 +33,7 @@ router.get('/:id', async (req: Request, res: Response) => {
   }
 });
 
-
+// POST /users - Create a new user
 router.post('/', async (req: Request, res: Response) => {
   const { username, email, password } = req.body;
   try {
@@ -44,7 +44,7 @@ router.post('/', async (req: Request, res: Response) => {
   }
 });
 
-
+// PUT /users/:id - Update a user by id
 router.put('/:id', async (req: Request, res: Response) => {
   const { id } = req.params;
   const { username, password } = req.body;
@@ -63,7 +63,7 @@ router.put('/:id', async (req: Request, res: Response) => {
   }
 });
 
-
+// DELETE /users/:id - Delete a user by id
 router.delete('/:id', async (req: Request, res: Response) => {
   const { id } = req.params;
   try {
