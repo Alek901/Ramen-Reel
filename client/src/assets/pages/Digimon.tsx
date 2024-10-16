@@ -3,7 +3,7 @@ import Scifi from '../../../public/PageImages/Digimon.jpg';
 
 const Digimon: React.FC = () => {
   return (
-    <div className="digimon-page" style={{ marginTop: '450px' }}>
+    <div className="digimon-page" style={{ marginTop: '150px' }}>
       <h1>Digimon Adventure</h1>
       <div style={{ display: 'flex', alignItems: 'flex-start' }}>
         <div style={{ marginRight: '20px', width: '300px', flexShrink: 0 }}>
