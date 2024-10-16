@@ -12,11 +12,11 @@ const Sidebar = () => {
             <span>Categories</span>
             <ul>
               <li></li>
-              <li><Link to="">Action</Link></li>
-              <li><Link to="">Romance</Link></li>
-              <li><Link to="">Family Friendly</Link></li>
-              <li><Link to="">Thriller</Link></li>
-              <li><Link to="">Sci-Fi</Link></li>
+              <li><Link to="/DragonBallz">Action</Link></li>
+              <li><Link to="/darling">Romance</Link></li>
+              <li><Link to="/spyxfamily">Family Friendly</Link></li>
+              <li><Link to="/Paramoia">Thriller</Link></li>
+              <li><Link to="/Digimon">Sci-Fi</Link></li>
               <li>
                 <div className="login-link">
                   <p>Want to become a noodle watcher? <Link to="/login">Click here to log in</Link></p>

@@ -13,7 +13,11 @@ import Scifi from '../public/PageImages/Digimon.jpg'
 import Romance from '../public/PageImages/Darling.jpg'
 import Familyfriendly from '../public/PageImages/Spy.jpg'
 import Action from '../public/PageImages/Dragonball.jpg'
-
+import Darling from './assets/pages/Darling';
+import Digimon from './assets/pages/Digimon';
+import DragonBallz from './assets/pages/DragonBallz';
+import Paranoia from './assets/pages/Paranoia';
+import Spy from './assets/pages/spyxfamily';
 
 
 
@@ -32,7 +36,7 @@ const location = useLocation();
           <img src={RamenReel} alt="My Logo 2" className="ramen-reel" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
       </header>
-          {location.pathname !== '/login' && (
+          {location.pathname !== '/Login' && location.pathname !== '/darling' && location.pathname !== '/Paramoia' && location.pathname !== '/DragonBallz' && location.pathname !== '/spyxfamily' && location.pathname !== '/Digimon' && (
             <>
             <div style={{ position: 'relative', width: '100%', height: '563px', top: 200 }}>
               <img src={Romance} style={{ position: 'absolute', top: '10px', left: '300px', width: '100px' }}/>
@@ -48,16 +52,19 @@ const location = useLocation();
       <Routes>
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
-          
+          <Route path="darling" element={<Darling />} />
+          <Route path='digimon' element={<Digimon />} />
+          <Route path='dragonballz' element={<DragonBallz />} />
+          <Route path='Paramoia' element={<Paranoia />} />
+          <Route path='spyxfamily' element={<Spy />} />
 
         
-          <Route path="*" element={<ErrorPage />} />
+          {/* <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
       
     </>
   )
 }
-
 
 
 
