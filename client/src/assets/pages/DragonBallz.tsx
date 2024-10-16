@@ -18,7 +18,7 @@ const  DragonBallz: React.FC = () => {
             <li><p>Genre: Action</p></li>
             <li><p>Episodes: 291</p></li>
             <li><p>Status: Completed</p></li>
-            <li><p>ReleaseYear: 1989</p></li>
+            <li><p>Release Year: 1989</p></li>
             <li><p>Rating: 8.18</p></li>
           </ul>
         </div>

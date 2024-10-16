@@ -3,7 +3,7 @@ import Romance from '../../../public/PageImages/Darling.jpg';
 
 const Darling: React.FC = () => {
   return (
-    <div className="darling-page" style={{ marginTop: '150px'}} >
+    <div className="darling-page" style={{ marginTop: '210px'}} >
       <h1>Darling in the Franxx</h1>
       <div style={{ display: 'flex', alignItems: 'flex-start' }}>
         <div style={{ marginRight: '20px', width: '300px', flexShrink: 0 }}>
@@ -18,7 +18,7 @@ const Darling: React.FC = () => {
             <li><p>Genre: Romance</p></li>
             <li><p>Episodes: 24</p></li>
             <li><p>Status: Completed</p></li>
-            <li><p>ReleaseYear: 2018</p></li>
+            <li><p>Release Year: 2018</p></li>
             <li><p>Rating: 7.19</p></li>
           </ul>
         </div>

@@ -3,7 +3,7 @@ import Scifi from '../../../public/PageImages/Digimon.jpg';
 
 const Digimon: React.FC = () => {
   return (
-    <div className="digimon-page" style={{ marginTop: '150px' }}>
+    <div className="digimon-page" style={{ marginTop: '210px' }}>
       <h1>Digimon Adventure</h1>
       <div style={{ display: 'flex', alignItems: 'flex-start' }}>
         <div style={{ marginRight: '20px', width: '300px', flexShrink: 0 }}>
@@ -18,7 +18,7 @@ const Digimon: React.FC = () => {
             <li><p>Genre: Sci-Fi</p></li>
             <li><p>Episodes: 54</p></li>
             <li><p>Status: Completed</p></li>
-            <li><p>ReleaseYear: 1999</p></li>
+            <li><p>Release Year: 1999</p></li>
             <li><p>Rating: 7.78</p></li>
           </ul>
         </div>

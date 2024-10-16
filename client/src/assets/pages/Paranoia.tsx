@@ -3,7 +3,7 @@ import Thriller from '../../../public/PageImages/Paranoia.jpg';
 
 const Paranoia: React.FC = () => {
   return (
-    <div className="paranoia-page" style={{ marginTop: '150px' }}>
+    <div className="paranoia-page" style={{ marginTop: '210px' }}>
       <h1>Paranoia Agent</h1>
       <div style={{ display: 'flex', alignItems: 'flex-start' }}>
         <div style={{ marginRight: '20px', width: '300px', flexShrink: 0 }}>
@@ -18,7 +18,7 @@ const Paranoia: React.FC = () => {
             <li><p>Genre: Thriller</p></li>
             <li><p>Episodes: 13</p></li>
             <li><p>Status: Completed</p></li>
-            <li><p>ReleaseYear: 2004</p></li>
+            <li><p>Release Year: 2004</p></li>
             <li><p>Rating: 7.66</p></li>
           </ul>
         </div>

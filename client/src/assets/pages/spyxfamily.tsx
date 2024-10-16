@@ -3,7 +3,7 @@ import Spy from '../../../public/PageImages/Spy.jpg';
 
 const Spyxfamily: React.FC = () => {
   return (
-    <div className="spy-family-page" style={{ marginTop: '150px' }}>
+    <div className="spy-family-page" style={{ marginTop: '210px' }}>
       <h1>Spy x Family</h1>
       <div style={{ display: 'flex', alignItems: 'flex-start' }}>
         <div style={{ marginRight: '20px', width: '300px', flexShrink: 0 }}>
@@ -18,7 +18,7 @@ const Spyxfamily: React.FC = () => {
             <li><p>Genre: Family Friendly</p></li>
             <li><p>Episodes: 12</p></li>
             <li><p>Status: Completed</p></li>
-            <li><p>ReleaseYear: 2022</p></li>
+            <li><p>Release Year: 2022</p></li>
             <li><p>Rating: 8.49</p></li>
           </ul>
         </div>
