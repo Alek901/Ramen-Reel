@@ -36,7 +36,7 @@ const location = useLocation();
           <img src={RamenReel} alt="My Logo 2" className="ramen-reel" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
       </header>
-          {location.pathname !== '/Login' && location.pathname !== '/darling' && location.pathname !== '/Paramoia' && location.pathname !== '/DragonBallz' && location.pathname !== '/spyxfamily' && location.pathname !== '/Digimon' && (
+          {location.pathname !== '/login' && location.pathname !== '/darling' && location.pathname !== '/Paramoia' && location.pathname !== '/DragonBallz' && location.pathname !== '/spyxfamily' && location.pathname !== '/Digimon' && (
             <>
             <div style={{ position: 'relative', width: '100%', height: '563px', top: 200 }}>
               <img src={Romance} style={{ position: 'absolute', top: '10px', left: '300px', width: '100px' }}/>
