@@ -3,7 +3,7 @@ import Action from '../../../public/PageImages/Dragonball.jpg';
 
 const  DragonBallz: React.FC = () => {
   return (
-    <div className="dragonballz-page" style={{ marginTop: '350px' }}>
+    <div className="dragonballz-page" style={{ marginTop: '450px' }}>
       <h1>Dragon Ball Z</h1>
       <div style={{ display: 'flex', alignItems: 'flex-start' }}>
         <div style={{ marginRight: '20px', width: '300px', flexShrink: 0 }}>

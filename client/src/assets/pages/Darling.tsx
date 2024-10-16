@@ -3,7 +3,7 @@ import Romance from '../../../public/PageImages/Darling.jpg';
 
 const Darling: React.FC = () => {
   return (
-    <div className="darling-page" style={{ marginTop: '250px'}} >
+    <div className="darling-page" style={{ marginTop: '450px'}} >
       <h1>Darling in the Franxx</h1>
       <div style={{ display: 'flex', alignItems: 'flex-start' }}>
         <div style={{ marginRight: '20px', width: '300px', flexShrink: 0 }}>

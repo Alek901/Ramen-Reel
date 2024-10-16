@@ -3,7 +3,7 @@ import Spy from '../../../public/PageImages/Spy.jpg';
 
 const Spyxfamily: React.FC = () => {
   return (
-    <div className="spy-family-page" style={{ marginTop: '250px' }}>
+    <div className="spy-family-page" style={{ marginTop: '450px' }}>
       <h1>Spy x Family</h1>
       <div style={{ display: 'flex', alignItems: 'flex-start' }}>
         <div style={{ marginRight: '20px', width: '300px', flexShrink: 0 }}>

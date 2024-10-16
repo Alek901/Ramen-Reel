@@ -3,7 +3,7 @@ import Thriller from '../../../public/PageImages/Paranoia.jpg';
 
 const Paranoia: React.FC = () => {
   return (
-    <div className="paranoia-page" style={{ marginTop: '250px' }}>
+    <div className="paranoia-page" style={{ marginTop: '450px' }}>
       <h1>Paranoia Agent</h1>
       <div style={{ display: 'flex', alignItems: 'flex-start' }}>
         <div style={{ marginRight: '20px', width: '300px', flexShrink: 0 }}>
