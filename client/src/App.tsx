@@ -59,7 +59,7 @@ const location = useLocation();
           <Route path='spyxfamily' element={<Spy />} />
 
         
-          {/* <Route path="*" element={<ErrorPage />} /> */}
+          { <Route path="*" element={<ErrorPage />} /> }
       </Routes>
       
     </>
