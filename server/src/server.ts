@@ -8,7 +8,7 @@ import sequelize from './config/connection.js';
 import routes from './routes/index.js';
 
 const app = express();
-const PORT = process.env.PORT || 10005;
+const PORT = process.env.PORT || 5005;
 
 
 app.use(express.static('../client/dist'));
