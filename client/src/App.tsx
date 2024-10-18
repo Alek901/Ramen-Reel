@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { BrowserRouter, Route, BrowserRouter as Router, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
+//import { BrowserRouter, Route, BrowserRouter as Router, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css'
 import Sidebar from './assets/components/Sidebar';
 import RamenBowl from '/PageImages/Ramen-Bowl.png'
@@ -23,7 +23,7 @@ import Spy from './assets/pages/spyxfamily';
 
 
 function App() {
-const [count, setCount] = useState(0)
+const [] = useState(0)
 const location = useLocation();
 
   return (
@@ -74,4 +74,4 @@ export default App
 
 
 
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';

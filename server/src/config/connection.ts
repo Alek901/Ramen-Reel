@@ -8,7 +8,7 @@ const sequelize = process.env.DB_URL
   : new Sequelize(
       process.env.DB_NAME || '',
       process.env.DB_USER || '',
-      process.env.DB_PASSWORD,
+      process.env.DB_PASSWORD || '',  // Add a fallback empty string here
       {
         host: 'localhost',
         dialect: 'postgres',
@@ -17,5 +17,4 @@ const sequelize = process.env.DB_URL
         },
       }
     );
-
 export default sequelize;
